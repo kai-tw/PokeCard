@@ -1,11 +1,13 @@
 <?php
 /**
  * Plugin Name:       Poke Card
+ * Plugin URI: 	      https://github.com/kai-tw/PokeCard
  * Description:       Display a single Pokemon.
  * Requires at least: 6.6
  * Requires PHP:      7.2
  * Version:           0.1.0
  * Author:            Kai
+ * Author URI:        https://www.kai-wu.net
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       poke-card-block
