@@ -1,17 +1,18 @@
 .poke-card
   display: flex
-  border-radius: 2em
+  border-radius: 32px
   max-width: 400px
   background: #fff
-  box-shadow: 0 1rem 40px rgba(34, 35, 58, 0.25)
+  box-shadow: 0 16px 40px rgba(34, 35, 58, 0.25)
   flex-direction: row
   overflow: hidden
   cursor: default
   color: #333
+  font-size: 16px
   line-height: 2
 
   @media screen and (max-width: 400px)
-    margin-top: 4em
+    margin-top: 64px
     flex-direction: column
     overflow: visible
 
@@ -22,7 +23,7 @@
     background-size: cover
 
     @media screen and (max-width: 400px)
-      border-radius: 1em 1em 0 0
+      border-radius: 16px 16px 0 0
       min-height: 150px
 
     img
@@ -41,7 +42,7 @@
   .poke-data
     flex: 1
     position: relative
-    padding: 1.5em 2em
+    padding: 24px 32px
     text-align: right
     background: rgb(255, 255, 255, 0.9)
 
@@ -50,20 +51,20 @@
       background: linear-gradient(135deg, transparent, rgb(255, 255, 255, 0.6), #fff, #fff)
 
     @media screen and (max-width: 250px)
-      padding-top: 3em
+      padding-top: 48px
 
   .poke-id
-    font-size: 1.5em
+    font-size: 24px
     text-align: right
 
   .poke-type
-    font-size: .8em
+    font-size: 12px
     font-weight: bold
     text-transform: capitalize
 
     span
       display: inline-block
-      margin-left: .5em
+      margin-left: 8px
 
     .text-grass
       color: green
@@ -121,20 +122,20 @@
 
   .poke-icon
     position: absolute
-    top: 1em
-    left: -4em
+    top: 16px
+    left: -64px
     border: 6px solid #fff
     border-radius: 50%
-    width: 4em
-    height: 4em
+    width: 64px
+    height: 64px
     transform: translateX(25%)
     background-size: contain
     background: #eee no-repeat center
 
     @media screen and (max-width: 400px)
-      top: -12em
-      left: 50%
-      transform: translateX(-50%)
+      top: -16px
+      left: 24px
+      transform: none
 
 .poke-grass .poke-back
   background-image: url(@img/backgrounds/grass.png)
