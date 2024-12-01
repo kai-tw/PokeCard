@@ -8,6 +8,7 @@
   overflow: hidden
   cursor: default
   color: #333
+  line-height: 2
 
   @media screen and (max-width: 400px)
     margin-top: 4em
@@ -27,8 +28,13 @@
     img
       display: block
       position: absolute
+      top: 50%
+      left: 50%
+      translate: -50% -50%
+      border: none
       max-width: unset
       height: 100%
+      box-shadow: none
 
       @media screen and (max-width: 400px)
         width: 100%
