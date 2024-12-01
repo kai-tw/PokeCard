@@ -1,0 +1,21 @@
+{
+	"name": "poke-card-block",
+	"version": "0.1.0",
+	"description": "Display a single Pokemon.",
+	"author": "Kai",
+	"license": "GPL-2.0-or-later",
+	"homepage": "www.kai-wu.net",
+	"main": "build/index.js",
+	"scripts": {
+		"build-block": "wp-scripts build --webpack-copy-php",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.6.0"
+	}
+}
