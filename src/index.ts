@@ -1,5 +1,4 @@
 import "@sass/main.sass";
-import "@sass/poke-card.sass";
 import {PokeApi} from "./PokeApi";
 
 document.getElementById("poke-card-submit")?.addEventListener("click", (e: MouseEvent) => {
