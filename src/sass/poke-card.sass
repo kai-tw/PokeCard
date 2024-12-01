@@ -1,0 +1,241 @@
+.poke-card
+  display: flex
+  border-radius: 2em
+  max-width: 400px
+  background: #fff
+  box-shadow: 0 1rem 40px rgba(34, 35, 58, 0.25)
+  flex-direction: row
+  overflow: hidden
+  cursor: default
+  color: #333
+
+  @media screen and (max-width: 400px)
+    margin-top: 4em
+    flex-direction: column
+    overflow: visible
+
+  .poke-back
+    flex: 2
+    position: relative
+    background-position: top center
+    background-size: cover
+
+    @media screen and (max-width: 400px)
+      border-radius: 1em 1em 0 0
+      min-height: 150px
+
+    img
+      display: block
+      position: absolute
+      max-width: unset
+      height: 100%
+
+      @media screen and (max-width: 400px)
+        width: 100%
+        height: auto
+
+  .poke-data
+    flex: 1
+    position: relative
+    padding: 1.5em 2em
+    text-align: right
+    background: rgb(255, 255, 255, 0.9)
+
+    @media screen and (max-width: 400px)
+      border-radius: inherit
+      background: linear-gradient(135deg, transparent, rgb(255, 255, 255, 0.6), #fff, #fff)
+
+    @media screen and (max-width: 250px)
+      padding-top: 3em
+
+  .poke-id
+    font-size: 1.5em
+    text-align: right
+
+  .poke-type
+    font-size: .8em
+    font-weight: bold
+    text-transform: capitalize
+
+    span
+      display: inline-block
+      margin-left: .5em
+
+    .text-grass
+      color: green
+
+    .text-poison
+      color: #a866c8
+
+    .text-fire
+      color: #ff9c54
+
+    .text-water
+      color: #4f92d6
+
+    .text-bug
+      color: #91c12d
+
+    .text-ground
+      color: #d97846
+
+    .text-rock
+      color: #cdbf8e
+
+    .text-normal
+      color: #919aa1
+
+    .text-dragon
+      color: #096ac1
+
+    .text-dark
+      color: #5a5467
+
+    .text-flying
+      color: #90a9de
+
+    .text-fairy
+      color: #ed8ee5
+
+    .text-fighting
+      color: #ce406a
+
+    .text-psychic
+      color: #f87479
+
+    .text-electric
+      color: #f4d23d
+
+    .text-steel
+      color: #53879c
+
+    .text-ice
+      color: #74cec1
+
+    .text-ghost
+      color: #5469ad
+
+  .poke-icon
+    position: absolute
+    top: 1em
+    left: -4em
+    border: 6px solid #fff
+    border-radius: 50%
+    width: 4em
+    height: 4em
+    transform: translateX(25%)
+    background-size: contain
+    background: #eee no-repeat center
+
+    @media screen and (max-width: 400px)
+      top: -12em
+      left: 50%
+      transform: translateX(-50%)
+
+.poke-grass .poke-back
+  background-image: url(@img/backgrounds/grass.png)
+
+.poke-fire .poke-back
+  background-image: url(@img/backgrounds/fire.png)
+
+.poke-water .poke-back
+  background-image: url(@img/backgrounds/water.png)
+
+.poke-bug .poke-back
+  background-image: url(@img/backgrounds/bug.png)
+
+.poke-normal .poke-back
+  background-image: url(@img/backgrounds/normal.png)
+
+.poke-poison .poke-back
+  background-image: url(@img/backgrounds/poison.png)
+
+.poke-electric .poke-back
+  background-image: url(@img/backgrounds/electric.png)
+
+.poke-ground .poke-back
+  background-image: url(@img/backgrounds/ground.png)
+
+.poke-dragon .poke-back
+  background-image: url(@img/backgrounds/dragon.png)
+
+.poke-fairy .poke-back
+  background-image: url(@img/backgrounds/fairy.png)
+
+.poke-fighting .poke-back
+  background-image: url(@img/backgrounds/fighting.png)
+
+.poke-flying .poke-back
+  background-image: url(@img/backgrounds/flying.png)
+
+.poke-ghost .poke-back
+  background-image: url(@img/backgrounds/ghost.png)
+
+.poke-ice .poke-back
+  background-image: url(@img/backgrounds/ice.png)
+
+.poke-psychic .poke-back
+  background-image: url(@img/backgrounds/psychic.png)
+
+.poke-rock .poke-back
+  background-image: url(@img/backgrounds/rock.png)
+
+.poke-steel .poke-back
+  background-image: url(@img/backgrounds/steel.png)
+
+.poke-dark .poke-back
+  background-image: url(@img/backgrounds/dark.png)
+
+.poke-grass .poke-icon
+  background-image: url(@img/icons/grass.png)
+
+.poke-fire .poke-icon
+  background-image: url(@img/icons/fire.png)
+
+.poke-water .poke-icon
+  background-image: url(@img/icons/water.png)
+
+.poke-bug .poke-icon
+  background-image: url(@img/icons/bug.png)
+
+.poke-normal .poke-icon
+  background-image: url(@img/icons/normal.png)
+
+.poke-poison .poke-icon
+  background-image: url(@img/icons/poison.png)
+
+.poke-electric .poke-icon
+  background-image: url(@img/icons/electric.png)
+
+.poke-ground .poke-icon
+  background-image: url(@img/icons/ground.png)
+
+.poke-dragon .poke-icon
+  background-image: url(@img/icons/dragon.png)
+
+.poke-fairy .poke-icon
+  background-image: url(@img/icons/fairy.png)
+
+.poke-fighting .poke-icon
+  background-image: url(@img/icons/fighting.png)
+
+.poke-flying .poke-icon
+  background-image: url(@img/icons/flying.png)
+
+.poke-ghost .poke-icon
+  background-image: url(@img/icons/ghost.png)
+
+.poke-ice .poke-icon
+  background-image: url(@img/icons/ice.png)
+
+.poke-psychic .poke-icon
+  background-image: url(@img/icons/psychic.png)
+
+.poke-rock .poke-icon
+  background-image: url(@img/icons/rock.png)
+
+.poke-steel .poke-icon
+  background-image: url(@img/icons/steel.png)
+
+.poke-dark .poke-icon
+  background-image: url(@img/icons/dark.png)

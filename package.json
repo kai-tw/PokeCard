@@ -1,0 +1,30 @@
+{
+  "name": "pokecard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "dev": "webpack-dev-server --config webpack.config.js --mode=development"
+  },
+  "author": "Kai",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.8",
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "node-fetch": "^3.3.2",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1"
+  }
+}
